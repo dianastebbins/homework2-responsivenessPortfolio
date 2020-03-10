@@ -1,0 +1,109 @@
+
+/* * { don't add this in without testing results first
+    box-sizing: border-box;
+  } */
+  
+body {
+    background: rgb(240, 220, 240);
+}
+
+.navbar {
+    background: white;
+}
+
+.wrapUnder {
+    float: left;
+    margin-right: 30px;
+}
+
+.contentArea {
+    background: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.navbar-brand {
+    background:purple; 
+    color: #fff;  
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.nav-link {
+    color: black;
+}
+
+h1 {
+    color: purple;
+}
+h4 {
+    font-size: 10px;
+}
+
+footer {
+    background: white;
+    text-align: center;
+}
+
+/* copied from in-class examples, will adjust as needed if and when they get used. */
+/* @media screen and (max-width: 768px) {
+    body {
+      background-color: #333;
+    }
+  
+    .wrapper { */
+      /* Box-model */
+      /* width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  } */
+  
+  /* Additional Screen Sizes */
+  
+  /* Width at 320px and below */
+  /* @media screen and (max-width: 320px) {
+    body {
+      background-color: #333;
+    }
+  
+    .wrapper { */
+      /* Box-model */
+      /* width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  } */
+  
+  /* Width at 168px and below */
+  @media screen and (max-width: 640px) {
+    body {
+      background-color: #333;
+    }
+  
+    .wrapUnder {
+        float: none;
+    }
+    
+    /* .nav-item{ */
+        /* align-items: justify-content-center; */
+        /* align-content: center; */
+    /* } */
+  }
