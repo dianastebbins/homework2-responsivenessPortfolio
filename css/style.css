@@ -2,21 +2,24 @@
 /* * { don't add this in without testing results first
     box-sizing: border-box;
   } */
-  
+
 body {
     background: rgb(240, 220, 240);
+    padding-bottom: 70px;
+    margin-bottom: 70px;
 }
 
 .navbar {
     background: white;
 }
 
-.wrapUnder {
+/* makes the text wrap under the picture when the screen is smaller */
+.wrapTextUnder {
     float: left;
     margin-right: 30px;
 }
 
-.contentArea {
+.contentSection {
     background: white;
     margin-left: 100px;
     margin-top: 20px;
@@ -37,73 +40,54 @@ body {
 h1 {
     color: purple;
 }
+
 h4 {
-    font-size: 10px;
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 footer {
-    background: white;
+    background-color: gray;
+    bottom: 0;
+    /* border-top: 25px; */
+    /* border-color: black; */
+    color: white;
+    height: 60px;
+    /* margin-top: 10px; */
+    padding-top: 5px;
+    position: absolute;
     text-align: center;
+    width: 100%;
 }
 
-/* copied from in-class examples, will adjust as needed if and when they get used. */
-/* @media screen and (max-width: 768px) {
+/* copied from in-class examples, will adjust as needed if and when they get used. *//* this happens on the biggest screens */
+/* Width at 980px and below, the largest of displays */
+@media screen and (max-width: 980px) {
     body {
-      background-color: #333;
+        background-color: rgb(240, 220, 240);
     }
+}
   
-    .wrapper { */
-      /* Box-model */
-      /* width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
-    }
-  } */
-  
-  /* Additional Screen Sizes */
-  
-  /* Width at 320px and below */
-  /* @media screen and (max-width: 320px) {
+/* Width at 748px and below, the medium size side of displays */
+@media screen and (max-width: 748px) {
     body {
-      background-color: #333;
+        background-color: rgb(221, 150, 221);
     }
-  
-    .wrapper { */
-      /* Box-model */
-      /* width: 100%;
-      padding: 20px;
+
+    .contentSection {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 95%;
     }
+} 
   
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
-    }
-  } */
-  
-  /* Width at 168px and below */
-  @media screen and (max-width: 640px) {
+/* Width at 640px and below, the smaller side of displays */
+@media screen and (max-width: 640px) {
     body {
-      background-color: #333;
-    }
-  
-    .wrapUnder {
-        float: none;
+        background-color: purple;
     }
     
-    /* .nav-item{ */
-        /* align-items: justify-content-center; */
-        /* align-content: center; */
-    /* } */
-  }
+    .wrapTextUnder {
+        float: none;
+    }
+}
