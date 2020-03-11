@@ -13,6 +13,11 @@ body {
     background: white;
 }
 
+/* Rounded border */
+hr.purple {
+    border-top: 4px solid purple;
+  }
+
 /* makes the text wrap under the picture when the screen is smaller */
 .wrapTextUnder {
     float: left;
