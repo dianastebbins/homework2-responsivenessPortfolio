@@ -24,6 +24,12 @@ h4 {
     padding-top: 5px;
 }
 
+.card-title {
+    font-size: 18px;
+    /* margin-top: 5px;
+    padding-top: 5px; */
+}
+
 hr.purple {
     border-top: 3px solid purple;
 }
@@ -87,6 +93,15 @@ hr.purple {
 #profilePic {
     max-height: 200px;
     max-width: 200px;
+}
+
+.col-sm-4 {
+    /* margin-left: 2px;
+    margin-right: 3px; */
+}
+.card-img-top{
+    /* max-height: 200px; */
+    max-width: 150px;
 }
 
 /* .card-img {
