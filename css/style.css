@@ -68,6 +68,10 @@ hr.purple {
     padding: 10px 30px;
 }
 
+.navbar-brand:hover {
+    color: black;
+}
+
 .navbar2 {
     margin-top: 5px;
 }
