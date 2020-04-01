@@ -1,46 +1,15 @@
-
-/* * { don't add this in without testing results first
-    box-sizing: border-box;
-  } */
-
 body {
-    background: rgb(240, 220, 240);
-    /* padding-bottom: 70px;  not helping with sticky footer*/
-    /* margin-bottom: 70px; not helping with sticky footer*/
+    background:  rgb(240, 220, 240);
 }
 
-.navbar {
-    background: white;
-}
-
-/* Rounded border */
-hr.purple {
-    border-top: 4px solid purple;
-  }
-
-/* makes the text wrap under the picture when the screen is smaller */
-.wrapTextUnder {
-    float: left;
-    margin-right: 30px;
-}
-
-.contentSection {
-    background: white;
-    margin-left: 100px;
-    margin-top: 20px;
-    padding: 20px;
-    width: 60%;
-}
-
-.navbar-brand {
-    background:purple; 
-    color: #fff;  
-    font-weight: bold;
-    padding: 10px 30px;
-}
-
-.nav-link {
+footer { 
+    background-color: white;
+    bottom: 0;
     color: black;
+    height: 60px;
+    /* position: absolute; this made it stick to the middle of the screen*/
+    text-align: center;
+    width: 100%;
 }
 
 h1 {
@@ -50,74 +19,115 @@ h1 {
 h4 {
     font-size: 12px;
     margin-top: 5px;
+    padding-top: 5px;
+}
+
+hr.purple {
+    border-top: 3px solid purple;
+}
+
+.contentSection {
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    width: 100%;
+}
+
+.customBtn,
+.customBtn:hover {
+    border: 1px solid purple;
 }
 
 .customBtn {
+    color: purple;
+    border-color: purple;
+}
+
+.customBtn:hover {
     background-color: purple;
     color: white;
 }
 
-.card-img {
-    margin-bottom: 20px;
-}
-.card-img-overlay {
-    width: 100%;
+.fas {
+    color: purple;
 }
 
-.card-title {
+.navbar {
+    background: white;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.navbar-brand {
+    background:purple; 
+    color: #fff;  
+    font-weight: bold;
+    padding: 10px 30px;
+    /* margin-left: 40px;
+    margin-right: 40px;  */
+}
+
+.navbar2 {
+    margin-top: 5px;
+}
+
+.navbar3 {
+    margin-bottom: 5px;
+}
+
+.nav-link {
+    color: black;
+}
+
+/* makes the text wrap under the picture when the screen is smaller */
+.wrapTextUnder {
+    margin-right: 30px;
+}
+
+
+#profilePic {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+/* .card-img {
+    margin-bottom: 20px;
+} */
+/* .card-img-overlay {
+    width: 100%;
+} */
+
+/* .card-title {
     background-color: purple;
     color: white;
     padding: 10px 30px;
     text-align: center;
-}
+} */
 
-footer {
-    background-color: gray;
-    bottom: 0;
-    /* border-top: 25px; not helping with sticky footer*/
-    /* border-color: black; not helping with sticky footer*/
-    color: white;
-    height: 60px;
-    /* margin-top: 10px; not helping with sticky footer*/
-    /* padding-top: 5px; not helping with sticky footer*/
-    position: absolute;
-    text-align: center;
-    width: 100%;
-}
 
-/* copied from in-class examples, will adjust as needed if and when they get used. *//* this happens on the biggest screens */
-/* Width at 980px and below, the largest of displays */
-@media screen and (max-width: 980px) {
-    body {
-        background-color: rgb(240, 220, 240);
-    }
-}
-  
-/* Width at 748px and below, the medium size side of displays */
-@media screen and (max-width: 748px) {
-    body {
+
+/* Width at 640px and above, the smaller side of displays */
+@media screen and (min-width: 640px) {
+    /* body {
         background-color: rgb(221, 150, 221);
-    }
+    } */
+}
 
-    .contentSection {
-        margin-left: 7px;
-        margin-top: 20px;
-        width: 95%;
-    }
-} 
-  
-/* Width at 640px and below, the smaller side of displays */
-@media screen and (max-width: 640px) {
-    body {
-        background-color: purple;
-    }
+/* Width at 748px and above, the medium size side of displays */
+@media screen and (min-width: 748px) {
+    /* body {
+        background-color: rgb(240, 220, 240);
+    } */
     
     .wrapTextUnder {
-        float: none;
+        float: left;
     }
+} 
 
-    /* .navbar,   nope, did nothing
-    .nav {
-        text-align: center;
+/* Width at 980px and above, the largest of displays */
+@media screen and (min-width: 980px) {
+    /* body {
+        background-color: rgb(245, 240, 245);
     } */
 }

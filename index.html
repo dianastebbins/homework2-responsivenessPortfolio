@@ -1,61 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- let's clear out any old styling -->
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
 
     <!-- We need to bring in the bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <!-- and now apply custom styling for this particular project -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>About Me page for Portfolio Homework</title>
 </head>
+
 <body>
     <!-- navBar -->
-    <nav class="navbar navbar-expand-sm ">
-        <div class="container">
-            <span class="navbar-brand h1">Diana Stebbins</span>
-            <div class="nav justify-content-end">
-                <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-            </div>
-        </div>
+    <nav class="navbar navbar-expand-sm d-flex justify-content-center">
+        <a class="navbar-brand" href="#">Diana Layne Stebbins</a>
+        <nav class="nav">
+            <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">LinkedIn</a>
+            <a class="nav-item nav-link active" href="#">Resume</a>
+        </nav>
     </nav>
 
-    <!-- content section -->
-    <section class="contentSection">
-        <h1>About Me</h1>
-        <hr class="purple"/>
+    <nav class="navbar navbar-expand-sm d-flex justify-content-center navbar2">
+        <nav class="nav">
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="#">GitHub</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </nav>
+    </nav>
 
-        <img src="assets/ProfilePic.jpg" class="wrapTextUnder" alt="Diana Stebbins profile picture">
-        <p>
-            Hello! My name is Diana Stebbins. I am a UW grad (go Dawgs!), married, a mom and now a Coding Bootcamp student. My goal with Bootcamp is to update my coding skills and technical tools exposure and move back to software development work. Will insert some more About Me information later but for now will just include some thrilling "lorem ipsum" text to keep this paragraph long for homework project purposes. :-) Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus veritatis optio commodi unde veniam rem sint delectus est voluptas, vel ab ipsam porro. Laborum sunt eveniet esse distinctio rerum doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas optio, exercitationem quod impedit nisi reiciendis! Praesentium, consectetur pariatur! Obcaecati sequi error non aliquam ea rem placeat adipisci dolorem nostrum ratione!
-        </p>
+    <!--containers in bootstrap give extra padding -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1" id="column-one"></div>
+            <div class="col-sm-10" id="column-two">
+                <!-- this will center it, to make it less than that, use @media-->
+                <!-- content section -->
+                <section class="contentSection">
+                    <h1>Meet Diana</h1>
+                    <hr class="purple" />
 
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quia veniam provident ab ipsum necessitatibus. Voluptatibus fugiat tenetur, ratione ipsa quo aliquid molestiae at illum exercitationem. Enim voluptatum autem repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quo dicta facere odit eum ducimus deserunt suscipit recusandae, praesentium harum aut fuga? Perferendis recusandae officia mollitia ut omnis eligendi libero!
-        </p>
-    </section>
+                    <img src="assets/ProfilePic.jpg" class="wrapTextUnder" id="profilePic"
+                        alt="Diana Stebbins profile picture">
+                    <p>
+                        Hello! My name is Diana Stebbins. I am a former UW CSE grad (go Dawgs!), married, a mom and now
+                        a Full Stack Web Development Bootcamp
+                        student excited to re-enter software development with an updated skill set. Will insert some
+                        more Meet Diana information later but for now will just include some thrilling "lorem ipsum"
+                        text to keep this paragraph long for homework project purposes. :-) Lorem ipsum, dolor sit amet
+                        consectetur adipisicing elit. Doloribus veritatis optio commodi unde veniam rem sint
+                        delectus est voluptas, vel ab ipsam porro. Laborum sunt eveniet esse distinctio rerum doloribus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas optio, exercitationem quod impedit
+                        nisi reiciendis! Praesentium, consectetur pariatur! Obcaecati sequi error non aliquam ea rem
+                        placeat adipisci dolorem nostrum ratione!
+                    </p>
 
-    <!-- <footer id="footer">
-        <h4>Made with <img src="https://fontawesome.com/icons/sad-tear?style=solid" alt="sad tears emoji"> by Diana</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus veritatis optio commodi unde
+                        veniam rem sint delectus est voluptas, vel ab ipsam porro. Laborum sunt eveniet esse distinctio
+                        rerum doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas optio,
+                        exercitationem quod impedit nisi reiciendis! Praesentium, consectetur pariatur! Obcaecati sequi
+                        error non aliquam ea rem placeat adipisci dolorem nostrum ratione!
+                    </p>
+                </section>
+            </div>
+            <div class="col-sm-1" id="column-three"></div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm d-flex justify-content-center navbar3">
+        <nav class="nav">
+            <a class="nav-item nav-link" href="#">dianastebbins@yahoo.com</a>
+            <a class="nav-item nav-link" href="#">206-349-3212</a>
+        </nav>
+    </nav>
+    <footer>
+        <h4>Made with <span class="fas fa-heart"></span> ❤️️ by Diana</h4>
         <h4>&copy; 2020 Starving Student LLC</h4>
-    </footer> -->
-    
+    </footer>
+
     <!-- Here we bring in some scripts required to allow some Bootstrap components to work. -->
-    <!-- copied from week-01/02-CSS-Bootstrap/01-Activities/16-CardLayout project -->
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/4dd6e48c89.js" crossorigin="anonymous"></script>
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <!--- Bootstrap JavaScript CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-   
+
 </body>
+
 </html>
