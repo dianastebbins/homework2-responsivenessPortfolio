@@ -1,5 +1,5 @@
-# homework7-professionalMaterials
-# homework2-responsivenessPortfolio (Original)
+## homework7-professionalMaterials
+### homework2-responsivenessPortfolio (Original)
 
 ## Project Description
 ```
@@ -7,11 +7,11 @@ Now that you've had some practice with APIs and have a project to share, you'll 
 ```
 
 ## Table of Contents
-1. [Requirements](#requirements)
-2. [Directions](#directions)
-3. [Instructions](#instructions)
-4. [Installation](#installation)
-5. [Usage](#usage)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Requirements](#requirements)
+4. [Directions](#directions)
+5. [Instructions](#instructions)
 6. [Credits](#credits)
 7. [License](#license)
 8. [Badges](#badges)
@@ -19,6 +19,31 @@ Now that you've had some practice with APIs and have a project to share, you'll 
 10. [Tests](#tests)
 11. [Directions (Original)](#directions-(original))
 
+## Installation
+```
+url to deployed app:
+```
+https://dianastebbins.github.io/homework2-responsivenessPortfolio/
+
+## Usage
+```
+Click on the link provided in the Installation section, above.
+
+Three pages plus double navbar header
+```
+* Double header with links
+    * GitHub
+    * LinkedIn
+    * Resume
+* Meet Diana Page
+    * Bio area
+    * Favorites
+    * Hobbies
+* Contact Page
+* Portfolio Page
+    * Featured Projects
+    * Little Widgets
+    * Includes links to deployed applications as well as github repositories
 
 ## Requirements 
 * (copied from Homework instructional README.md, for reference)
@@ -84,20 +109,10 @@ Update your LinkedIn Profile with a strong bio statement, a professional photo, 
 ```
 * Updated LinkedIn profile
 
-## Installation
-```
-url to deployed app:
-```
-https://dianastebbins.github.io/homework2-responsivenessPortfolio/
-
-## Usage
-```
-Click on the link provided in the Installation section, above.
-```
-
 ## Credits
 *Requirements copied from provided Homework files of Full Stack Coding Bootcamp.
-*Several objects created from starting code found at https://getbootstrap.com/docs/4.0/components/ site
+*[Bootstrap](https://getbootstrap.com/docs/4.0/components/)
+*Icons from [font awesome](https://fontawesome.com)
 
 ## License
 ```
