@@ -17,6 +17,7 @@
 
     <title>Portfolio links page for Portfolio Homework</title>
 </head>
+<!-- href="https://docs.google.com/document/d/1gD0w4_t-qcP2kpz6mAn8IWQ76Jx0uW51LslUUdn5U-8/edit?usp=sharing">Resume</a> -->
 
 <body>
     <!-- navBar -->
@@ -27,14 +28,15 @@
             <a class="nav-item nav-link" target="_blank"
                 href="https://www.linkedin.com/in/diana-stebbins-b618b034">LinkedIn</a>
             <a class="nav-item nav-link active" target="_blank"
-                href="https://docs.google.com/document/d/1gD0w4_t-qcP2kpz6mAn8IWQ76Jx0uW51LslUUdn5U-8/edit?usp=sharing">Resume</a>
+                href="assets/Resume.pdf">Resume</a>
         </nav>
     </nav>
 
     <nav class="navbar navbar-expand-sm d-flex justify-content-center navbar2">
         <nav class="nav">
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="#">GitHub</a>
+            <a class="nav-item nav-link" target="_blank" 
+            href="https://github.com/dianastebbins">GitHub</a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
         </nav>
     </nav>
@@ -50,23 +52,29 @@
                     <h1>Portfolio</h1>
                     <hr class="purple" />
                     <div class="row">
+                        <!-- TODO: create these cards dynamically using an array of project information...easier to add to later... -->
                         <div class="col-sm-4">
                             <div class="card">
                                 <div class="card-header">
-                                    Project
+                                    Project (Group)
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Frustration.</h5>
                                     <p class="card-text">We need more Frustration. in our lives</p>
                                 </div>
                                 <img class="card-img-top" src="assets/frustration.PNG" alt="Card image cap">
-                                <div class="card-footer">
-                                    <large class="text-muted">Play here!</large>
-                                </div>
+                                <p class="card-repo">
+                                    <a class="card-repo-link" target="_blank" href="https://github.com/dianastebbins/projectOne-Frustration">GitHub repo link</a>
+                                </p>
+                                <a target="_blank" href="https://dianastebbins.github.io/projectOne-Frustration/">
+                                    <div class="card-footer">
+                                        <large class="text-muted">Play here!</large>
+                                    </div>
+                                </a>
                             </div>
                         </div>
+
                         <div class="col-sm-4">
-                            
                             <div class="card">
                                 <div class="card-header">
                                     Project
@@ -76,13 +84,14 @@
                                     <p class="card-text">Lorem ipsum, dolor sit</p>
                                 </div>
                                 <img class="card-img-top" src="assets/ComingSoon.PNG" alt="Card image cap">
+                                <p class="card-repo">GitHub repo link</p>
                                 <div class="card-footer">
                                     <large class="text-muted">Soon!</large>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-sm-4">
-                            
                             <div class="card">
                                 <div class="card-header">
                                     Project
@@ -92,13 +101,17 @@
                                     <p class="card-text">Lorem ipsum, dolor sit</p>
                                 </div>
                                 <img class="card-img-top" src="assets/ComingSoon.PNG" alt="Card image cap">
+                                <p class="card-repo">GitHub repo link</p>
                                 <div class="card-footer">
                                     <large class="text-muted">Soon!</large>
                                 </div>
                             </div>
                         </div>
+
                     </div>
+
                     <div class="row">
+                        
                         <div class="col-sm-4">
                             <div class="card">
                                 <div class="card-header">
@@ -109,46 +122,62 @@
                                     <p class="card-text">What's the weather?</p>
                                 </div>
                                 <img class="card-img-top" src="assets/weatherDashboard.PNG" alt="Card image cap">
-                                <div class="card-footer">
-                                    <large class="text-muted">Rain, rain, go away</large>
-                                </div>
+                                <p class="card-repo">
+                                    <a class="card-repo-link" target="_blank" href="https://github.com/dianastebbins/homework6-weatherDashboard">GitHub repo link</a>
+                                </p>
+                                <a target="_blank" href="https://dianastebbins.github.io/homework6-weatherDashboard/">
+                                    <div class="card-footer">
+                                        <large class="text-muted">Start here!</large>                                    
+                                    </div>
+                                </a>
                             </div>
                         </div>
+                        
                         <div class="col-sm-4">
                             <div class="card">
                                 <div class="card-header">
                                     Widget
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Day Planner</h5>
+                                    <h5 class="card-title">Mini Day Planner</h5>
                                     <p class="card-text">You can't be too prepared</p>
                                 </div>
                                 <img class="card-img-top" src="assets/dayPlanner.PNG" alt="Card image cap">
-                                <div class="card-footer">
-                                    <large class="text-muted">Gget organized!</large>
-                                </div>
+                                <p class="card-repo">
+                                    <a class="card-repo-link" target="_blank" href="https://github.com/dianastebbins/homework5-dayPlanner">GitHub repo link</a>
+                                </p>
+                                <a target="_blank" href="https://dianastebbins.github.io/homework5-dayPlanner/">
+                                    <div class="card-footer">
+                                        <large class="text-muted">Get organized!</large>
+                                    </div>
+                                </a>
                             </div>
                         </div>
+                        
                         <div class="col-sm-4">
-                            
                             <div class="card">
                                 <div class="card-header">
                                     Widget
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Password Generator</h5>
-                                    <p class="card-text">Generates a password</p>
+                                    <p class="card-text">Customize requirements</p>
                                 </div>
                                 <img class="card-img-top" src="assets/pwGenerator.PNG" alt="Card image cap">
-                                <div class="card-footer">
-                                    <large class="text-muted">Make me a password</large>
-                                </div>
+                                <p class="card-repo">
+                                    <a class="card-repo-link" target="_blank" href="https://github.com/dianastebbins/homework3-passwordGenerator">GitHub repo link</a>
+                                </p>
+                                <a target="_blank" href="https://dianastebbins.github.io/homework3-passwordGenerator/">
+                                    <div class="card-footer">
+                                        <large class="text-muted">Protect me!</large>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                    </div>
-            </div>
-            </section>
 
+                    </div>
+                </div>
+            </section>
         </div>
         <div class="col-sm-1" id="column-three"></div>
     </div>
