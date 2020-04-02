@@ -6,6 +6,8 @@ body {
 
 footer { 
     background-color: white;
+    border-bottom: rgb(240, 220, 240) solid 5px;
+    border-top: rgb(240, 220, 240) solid 5px;
     bottom: 0;
     color: black;
     height: 60px;
@@ -116,6 +118,7 @@ li {
 
 .navbar {
     background: white;
+    border-top: rgb(240, 220, 240) solid 5px;
     padding-bottom: 0;
     padding-top: 0;
 }
@@ -131,10 +134,6 @@ li {
     color: black;
 }
 
-.navbar2 {
-    margin-top: 5px;
-}
-
 .nav-link {
     color: black;
 }
@@ -148,24 +147,30 @@ li {
     max-width: 200px;
 }
 
-
-/* Width at 640px and above, the smaller side of displays */
-@media screen and (min-width: 640px) {
-    /* body {
-        background-color: rgb(221, 150, 221);
-    } */
+/* The point where the cards are narrow but not yet stacked*/
+@media screen and (min-width: 576px) {
+    .card-img-top {
+        align-self: center;
+        height: 150px;
+        width: 100px;
+    }
+    .card-title,
+    .card-text {
+        font-size: 12px;
+    }
 }
 
-/* Width at 748px and above, the medium size side of displays */
-@media screen and (min-width: 748px) {
+/* Width at 768px and above, cards are larger sized */
+@media screen and (min-width: 768px) {
     .wrapTextUnder {
         float: right;
     }
-} 
-
-/* Width at 980px and above, the largest of displays */
-@media screen and (min-width: 980px) {
-    /* body {
-        background-color: rgb(245, 240, 245);
-    } */
+    .card-img-top {
+        align-self: center;
+        height: 200px; 
+        width: 150px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
 }
