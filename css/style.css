@@ -20,12 +20,22 @@ h1 {
 
 h4 {
     font-size: 12px;
-    margin-top: 5px;
+    margin-top: 18px;
     padding-top: 5px;
 }
 
 hr.purple {
     border-top: 3px solid purple;
+}
+
+ul {
+    color: purple;
+    font-style: bold;
+    text-decoration-style: bold;
+}
+
+li {
+    color: black;
 }
 
 .card,
