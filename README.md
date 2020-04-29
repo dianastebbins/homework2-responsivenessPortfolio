@@ -28,30 +28,33 @@ https://dianastebbins.github.io/homework2-responsivenessPortfolio/
 ## Usage
 ```
 Click on the link provided in the Installation section, above.
-
-Three pages plus double navbar header
 ```
-* Double header with links
-    * GitHub
-    * LinkedIn
-    * Resume
+* Navbar with links
+    * About/Bio
+    * Portfolio
+    * Contact
 * Meet Diana Page
     * Bio area
-    * Favorites
-    * Hobbies
+    * Tech
+    * Skill
 * Contact Page
 * Portfolio Page
     * Featured Projects
     * Little Widgets
     * Includes links to deployed applications as well as github repositories
+* Footer with links
+    * LinkedIn
+    * GitHub
+    * Resume
 
 ## Requirements 
 * (copied from Homework instructional README.md, for reference)
 
 ### Directions
-* Updated portfolio featuring project 1 and two exemplary homework assignments. 
-* Update GitHub profile with pinned repositories featuring project 1 and two exemplary assignments. 
+* Updated portfolio featuring projects 1 and 2 and at least 4 exemplary homework assignments. 
+* Update GitHub profile with pinned repositories featuring projects 1 and 2 and four exemplary assignments. 
 * Updated resume
+* Updated LinkedIn profile
 
 ### Instructions
 1. [Updated Portfolio](#updated-portfolio)

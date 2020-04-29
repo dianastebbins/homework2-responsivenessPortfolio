@@ -112,8 +112,17 @@ li {
     color: white;
 }
 
-.fas {
+.fas, .fab {
     color: purple;
+}
+
+.ftr-info, .ftr-link {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ftr-link, .nav-link {
+    color: black;
 }
 
 .navbar {
@@ -131,10 +140,6 @@ li {
 }
 
 .navbar-brand:hover {
-    color: black;
-}
-
-.nav-link {
     color: black;
 }
 
